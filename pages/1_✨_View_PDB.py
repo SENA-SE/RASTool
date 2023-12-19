@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 import os
 
-# 指定文件夹路径
-folder_path = ".\Resources"
+# # 指定文件夹路径
+# folder_path = ".\Resources"
 
-# 构建文件路径
-file_path = os.path.join(folder_path, 'entry.tsv')
+# # 构建文件路径
+# file_path = os.path.join(folder_path, 'entry.tsv')
 
 # 使用 Pandas 读取 .tsv 文件为 DataFrame
-df = pd.read_csv(file_path, sep='\t')
+df = pd.read_csv("https://raw.githubusercontent.com/SENA-SE/RASTool/master/uploads/entry.tsv", sep='\t')
 
 # 显示 DataFrame 的前几行
 # print(df.head())

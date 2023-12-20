@@ -141,6 +141,7 @@ cartoon_trans = st.sidebar.slider(
     "Cartoon Transparency", min_value=0.0, max_value=1.0, value=cartoon_trans
 )
 
+
 hl_color = "red"
 bb_color = "lightgrey"
 lig_color = "white"
@@ -187,7 +188,6 @@ left_check_col, middle_check_col, right_check_col = st.columns(3)
 left_check_col.markdown("##### Bound Ligands")
 
 zoom_resids = None
-cartoon_trans = 1.0
 surface_trans = 0.0
 zoom = 1.5
 
